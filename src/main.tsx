@@ -103,10 +103,10 @@ function App() {
     window.addEventListener('hashchange', handleHashChange)
     return () => window.removeEventListener('hashchange', handleHashChange)
   }, [])
-  useEffect(() => {
+  useLayoutEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
   }, [selectedId])
-  const openEntry = (id: string) => { window.location.hash = `entry/${id}` }
+  const openEntry = (id: string) => { window.scrollTo({ top: 0, left: 0, behavior: 'auto' }); window.location.hash = `entry/${id}` }
   const goHome = () => { window.location.hash = ''; setSelectedId(null) }
   const selected = selectedId ? repository.findEntry(selectedId) : undefined
   return <><Navigation onHome={goHome} isHomePage={!selected} />{selected ? <DetailPage entry={selected} /> : <HomePage onOpen={openEntry} />}</>
