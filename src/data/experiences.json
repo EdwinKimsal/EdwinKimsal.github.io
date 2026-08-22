@@ -1,0 +1,69 @@
+[
+  {
+    "id": "rit-software-developer",
+    "type": "Experience",
+    "title": "Software Developer Intern/Contractor",
+    "company": "Rochester Institute of Technology",
+    "period": "Aug 2025 - Aug 2026",
+    "tags": [
+      "Concurrency",
+      "Docker",
+      "Java",
+      "Nginx",
+      "Node.js",
+      "PostgreSQL",
+      "Prisma",
+      "React",
+      "TailwindCSS",
+      "TypeScript"
+    ],
+    "shortDescription": "Developed full-stack software serving 1,000+ students annually as part of a $1M NSF-funded research project",
+    "image": null,
+    "accent": "coral",
+    "details": {
+      "overview": [
+        "Engineered an online classroom platform serving 1,000+ students annually",
+        "Developed 15+ features across two codebases, reducing grading time by 80%",
+        "Built plagiarism detection software processing 100,000+ submissions annually",
+        "Implemented a semaphore-based submission queue handling 1,500+ late-night submissions",
+        "Consolidated 50+ utility functions into a shared library to reduce code duplication",
+        "Trained and onboarded two developers on the codebase, workflows, and architecture",
+        "Analyzed student and faculty feedback, increasing user ratings by 50%",
+        "Contributed to a $1M NSF-funded research project"
+      ]
+    },
+    "links": {}
+  },
+  {
+    "id": "psu-ai-research",
+    "type": "Experience",
+    "title": "Artificial Intelligence Research Assistant",
+    "company": "Penn State College of Engineering",
+    "period": "Sep 2024 - May 2025",
+    "tags": [
+      "Computer Vision",
+      "Convolutional Neural Networks",
+      "CUDA",
+      "Data Processing",
+      "Deep Learning",
+      "OpenCV",
+      "Python"
+    ],
+    "shortDescription": "Developed computer-vision methods for automated solar-panel detection across 400,000 aerial images",
+    "image": null,
+    "accent": "yellow",
+    "details": {
+      "overview": [
+        "Analyzed 400,000 aerial images using CNNs and OpenCV for automated solar-panel detection",
+        "Achieved 0.85 IoU in CNN-based solar-panel detection across varying image channels",
+        "Processed 100+ GB of aerial imagery for dataset preparation and CNN training",
+        "Leveraged CUDA-enabled GPUs for large-scale image processing and model training",
+        "Integrated three CNN models into a reusable Python library using object-oriented design",
+        "Contributed to published computer-vision research"
+      ]
+    },
+    "links": {
+      "publication": "https://www.nature.com/articles/s41597-025-06523-2"
+    }
+  }
+]

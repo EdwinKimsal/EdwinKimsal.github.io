@@ -1,0 +1,137 @@
+[
+  {
+    "id": "wedding-rsvp",
+    "type": "Project",
+    "title": "Wedding RSVP Portal",
+    "tags": [
+      "AWS",
+      "HTML",
+      "JavaScript",
+      "Linux",
+      "MariaDB",
+      "PHP",
+      "Port Forwarding",
+      "Python",
+      "Raspberry Pi",
+      "SQL"
+    ],
+    "shortDescription": "Developed and deployed an online RSVP platform serving 200+ guests with automated attendance management and backup infrastructure",
+    "image": "/images/wedding-rsvp.jpeg",
+    "accent": "white",
+    "details": {
+      "overview": [
+        "Developed an online RSVP platform serving 200+ guests",
+        "Automated 130+ confirmation and attendance-update emails using Python",
+        "Deployed the application on a LAMP stack running on a Raspberry Pi",
+        "Configured port forwarding to provide external access to the application",
+        "Built an AWS Lightsail backup environment to minimize downtime during server failures"
+      ]
+    },
+    "links": {
+      "github": "https://github.com/EdwinKimsal/Wedding-Website",
+      "website": "https://lizandclaywedding.com"
+    }
+  },
+  {
+    "id": "targeting-system",
+    "type": "Project",
+    "title": "Autonomous 3D Ballistic Targeting System",
+    "tags": [
+      "Arduino",
+      "C++",
+      "CAD",
+      "Python"
+    ],
+    "shortDescription": "Developed an autonomous targeting system that converts 3D target coordinates into launcher angles and flywheel speeds for ping-pong ball targeting",
+    "image": "/images/targeting-system.jpg",
+    "accent": "coral",
+    "details": {
+      "overview": [
+        "Converted 3D target coordinates into flywheel speeds and dual-axis angles",
+        "Achieved 65% targeting accuracy at distances of 6m to 15m",
+        "Designed 18 custom mechanical components and integrated 13 electrical components",
+        "Simulated up to 1,000 shots before firing to validate targeting accuracy",
+        "Developed a Python visualization tool to analyze projectile trajectories",
+        "Executed target-to-shot cycles within 7 seconds of receiving coordinates"
+      ]
+    },
+    "links": {
+      "github": "https://github.com/EdwinKimsal/Autonomous_3D_Ballistic_Targeting_System",
+      "video": "https://www.youtube.com/"
+    }
+  },
+  {
+    "id": "pong-console",
+    "type": "Project",
+    "title": "PONG Console System",
+    "tags": [
+      "Arduino",
+      "C++",
+      "Digital Logic",
+      "Embedded Systems Programming",
+      "Microcontroller Programming"
+    ],
+    "shortDescription": "Built a C++/Arduino PONG console with custom controllers, a 6x6 LED matrix, shift registers, and real-time game logic",
+    "image": "/images/pong-console.png",
+    "accent": "pink",
+    "details": {
+      "overview": [
+        "Designed two controllers and a 6x6 LED matrix for an Arduino-based PONG console",
+        "Implemented real-time game logic to process player input every frame",
+        "Integrated two shift registers to control the LED matrix display",
+        "Implemented dynamic screen-size handling for different LED matrix configurations",
+        "Built responsive input processing for two-player gameplay"
+      ]
+    },
+    "links": {
+      "github": "https://github.com/EdwinKimsal/Arduino-Pong",
+      "video": "https://youtu.be/bj4knQw1QMk"
+    }
+  },
+  {
+    "id": "physics-collision-engine",
+    "type": "Project",
+    "title": "Physics Collision Engine",
+    "tags": [
+      "C#",
+      "Unity"
+    ],
+    "shortDescription": "Developed a 2D physics engine that simulates elastic collisions between 20+ customizable objects",
+    "image": "/images/physics-collision-engine.png",
+    "accent": "yellow",
+    "details": {
+      "overview": [
+        "Derived and implemented 10 physics equations to simulate 2D elastic collisions",
+        "Supported 20+ simultaneous objects with customizable mass, velocity, and position",
+        "Designed randomized collision experiments to evaluate simulated behavior",
+        "Used the engine during physics tutoring sessions to demonstrate elastic-collision concepts"
+      ]
+    },
+    "links": {
+      "github": "https://github.com/EdwinKimsal/Momentum-Simulator",
+      "demo": "https://youtu.be/tXe5whtTRaU"
+    }
+  },
+  {
+    "id": "tcp-chat-room-server",
+    "type": "Project",
+    "title": "TCP Chat Room Server",
+    "tags": [
+      "C",
+      "Linux",
+      "Socket Programming"
+    ],
+    "shortDescription": "Engineered a TCP chat server supporting 20+ simultaneous users with direct messaging, activity logging, and custom commands",
+    "image": "/images/tcp-chat-room-server.png",
+    "accent": "blue",
+    "details": {
+      "overview": [
+        "Engineered a TCP chat server supporting 20+ simultaneous users",
+        "Implemented custom nicknames and direct messaging between users",
+        "Built queue-based activity logging for user auditing and server-side event tracking",
+        "Implemented seven server commands with custom terminal color mapping"
+      ]
+    },
+    "links": {}
+  }
+]

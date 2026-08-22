@@ -1,0 +1,92 @@
+[
+  {
+    "category": "Programming Languages",
+    "skills": [
+      "C",
+      "C#",
+      "C++",
+      "Java",
+      "JavaScript",
+      "PHP",
+      "Python",
+      "SQL",
+      "TypeScript"
+    ]
+  },
+  {
+    "category": "Web Development",
+    "skills": [
+      "Apache",
+      "BeautifulSoup",
+      "CSS",
+      "HTML",
+      "Node.js",
+      "Nginx",
+      "React",
+      "REST API Design",
+      "TailwindCSS",
+      "Web Scraping"
+    ]
+  },
+  {
+    "category": "Databases & Data",
+    "skills": [
+      "Data Processing",
+      "MariaDB",
+      "Microsoft Excel",
+      "MySQL",
+      "PostgreSQL",
+      "Prisma",
+      "SQLite"
+    ]
+  },
+  {
+    "category": "Artificial Intelligence & Computer Vision",
+    "skills": [
+      "Computer Vision",
+      "Convolutional Neural Networks",
+      "CUDA",
+      "Deep Learning",
+      "OpenCV"
+    ]
+  },
+  {
+    "category": "Systems & Software Engineering",
+    "skills": [
+      "Concurrent Programming",
+      "Docker",
+      "Git",
+      "GitHub",
+      "LaTeX",
+      "Multithreading",
+      "Socket Programming"
+    ]
+  },
+  {
+    "category": "Embedded Systems & Hardware",
+    "skills": [
+      "Arduino",
+      "CAD",
+      "Digital Logic",
+      "Embedded Systems Programming",
+      "Microcontroller Programming",
+      "Motor Control",
+      "Network Configuration",
+      "Port Forwarding",
+      "Raspberry Pi"
+    ]
+  },
+  {
+    "category": "Cloud & Infrastructure",
+    "skills": [
+      "AWS",
+      "Linux"
+    ]
+  },
+  {
+    "category": "Game Development",
+    "skills": [
+      "Unity"
+    ]
+  }
+]

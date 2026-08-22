@@ -1,0 +1,52 @@
+[
+  {
+    "id": "physics-tutor",
+    "type": "Leadership",
+    "title": "Physics Tutor",
+    "organization": "Pennsylvania State University Student Success Center",
+    "period": "Aug 2025 - May 2026",
+    "description": "Tutored students in physics through individualized academic support and problem-solving guidance.",
+    "category": "Leadership",
+    "accent": "blue"
+  },
+  {
+    "id": "math-tutor",
+    "type": "Leadership",
+    "title": "Math Tutor",
+    "organization": "Pennsylvania State University Math Dimension",
+    "period": "Dec 2024 - Present",
+    "description": "Tutored students in mathematics through individualized academic support and problem-solving guidance.",
+    "category": "Leadership",
+    "accent": "white"
+  },
+  {
+    "id": "math-olympiad",
+    "type": "Award",
+    "title": "Math Olympiad - 3rd Place",
+    "organization": "Pennsylvania State University",
+    "period": "May 2025",
+    "description": "Earned 3rd place in the Pennsylvania State University Math Olympiad.",
+    "category": "Award",
+    "accent": "yellow"
+  },
+  {
+    "id": "engineering-club",
+    "type": "Leadership",
+    "title": "Engineering Club - Member",
+    "organization": "Pennsylvania State University",
+    "period": "Aug 2026 - Present",
+    "description": "Member of the Pennsylvania State University Engineering Club.",
+    "category": "Leadership",
+    "accent": "white"
+  },
+  {
+    "id": "coding-club",
+    "type": "Leadership",
+    "title": "Coding Club - Event Planner",
+    "organization": "Pennsylvania State University",
+    "period": "Sep 2024 - Sep 2025",
+    "description": "Planned events for the Pennsylvania State University Coding Club.",
+    "category": "Leadership",
+    "accent": "coral"
+  }
+]

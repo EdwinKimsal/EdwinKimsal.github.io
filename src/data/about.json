@@ -1,0 +1,15 @@
+{
+  "name": "Edwin Kimsal",
+  "role": "Computer Science Student",
+  "location": "Pennsylvania, United States of America",
+  "intro": "I am a junior Computer Science student with a strong academic background and hands-on experience in software development. I enjoy building practical projects that combine software and hardware to tackle real-world challenges.",
+  "education": "B.S. Computer Science, Pennsylvania State University",
+  "graduation": "Expected May 2028",
+  "gpa": "GPA: 4.0",
+  "links": {
+    "github": "https://github.com/EdwinKimsal",
+    "linkedin": "https://www.linkedin.com/in/edwin-kimsal-482b52344/",
+    "youtube": "https://www.youtube.com/channel/UCjs2duuGug_WwM2N4BphhFw"
+  },
+  "contact": "edwin.kimsal@outlook.com"
+}
