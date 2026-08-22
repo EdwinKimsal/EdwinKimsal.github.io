@@ -99,6 +99,7 @@ function App() {
   const getSelectedId = () => window.location.hash.startsWith('#entry/') ? window.location.hash.replace('#entry/', '') : null
   const [selectedId, setSelectedId] = useState<string | null>(getSelectedId)
   useEffect(() => {
+    window.history.scrollRestoration = 'manual'
     const handleHashChange = () => setSelectedId(getSelectedId())
     window.addEventListener('hashchange', handleHashChange)
     return () => window.removeEventListener('hashchange', handleHashChange)
@@ -106,8 +107,8 @@ function App() {
   useLayoutEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
   }, [selectedId])
-  const openEntry = (id: string) => { window.scrollTo({ top: 0, left: 0, behavior: 'auto' }); window.location.hash = `entry/${id}` }
-  const goHome = () => { window.location.hash = ''; setSelectedId(null) }
+  const openEntry = (id: string) => { window.history.pushState(null, '', `#entry/${id}`); setSelectedId(id); window.scrollTo({ top: 0, left: 0, behavior: 'auto' }) }
+  const goHome = () => { window.history.pushState(null, '', window.location.pathname + window.location.search); setSelectedId(null); window.scrollTo({ top: 0, left: 0, behavior: 'auto' }) }
   const selected = selectedId ? repository.findEntry(selectedId) : undefined
   return <><Navigation onHome={goHome} isHomePage={!selected} />{selected ? <DetailPage entry={selected} /> : <HomePage onOpen={openEntry} />}</>
 }
