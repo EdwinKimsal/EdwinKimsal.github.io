@@ -67,7 +67,6 @@ function EntryCard({ entry, onOpen }: { entry: PortfolioEntry; onOpen: (id: stri
     <EntryImage entry={entry} location="card" /><div className="card-top"><span className="card-type">{entry.type}</span>{entry.period && <span className="card-period"><Period value={entry.period} /></span>}</div>
     <div><FittingTitle title={entry.title} level="card" />{entry.company && <p className="company">{entry.company}</p>}</div>
     <p className="card-description">{entry.shortDescription}</p>
-    <ul className="card-details">{entry.details.overview.map((item) => <li key={item}>{item}</li>)}</ul>
     <TagList tags={entry.tags} />
     <button className="card-arrow" aria-label={`View ${entry.title}`}><ArrowUpRight size={20} /></button>
   </article>
