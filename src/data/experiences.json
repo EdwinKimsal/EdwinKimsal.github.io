@@ -49,7 +49,7 @@
       "OpenCV",
       "Python"
     ],
-    "shortDescription": "Developed computer-vision methods for automated solar-panel detection across 400,000 aerial images",
+    "shortDescription": "Developed computer-vision methods for automated solar-panel detection across 30,000 aerial images",
     "image": null,
     "accent": "yellow",
     "details": {
