@@ -54,7 +54,7 @@
     "accent": "yellow",
     "details": {
       "overview": [
-        "Analyzed 400,000 aerial images using CNNs and OpenCV for automated solar-panel detection",
+        "Analyzed 30,000 aerial images using CNNs and OpenCV for automated solar-panel detection",
         "Achieved 0.85 IoU in CNN-based solar-panel detection across varying image channels",
         "Processed 100+ GB of aerial imagery for dataset preparation and CNN training",
         "Leveraged CUDA-enabled GPUs for large-scale image processing and model training",
