@@ -32,6 +32,7 @@
       "website": "https://lizandclaywedding.com"
     }
   },
+  
   {
     "id": "targeting-system",
     "type": "Project",
@@ -60,6 +61,7 @@
       "video": "https://youtu.be/tugyU-69lgg"
     }
   },
+
   {
     "id": "pong-console",
     "type": "Project",
@@ -88,6 +90,7 @@
       "video": "https://youtu.be/bj4knQw1QMk"
     }
   },
+
   {
     "id": "physics-collision-engine",
     "type": "Project",
@@ -112,6 +115,7 @@
       "video": "https://youtu.be/tXe5whtTRaU"
     }
   },
+
   {
     "id": "tcp-chat-room-server",
     "type": "Project",
@@ -133,5 +137,28 @@
       ]
     },
     "links": {}
+  },
+
+  {
+    "id": "far-field-doa-sound-detector",
+    "type": "Project",
+    "title": "Far-Field Direction Of Arrival Sound Detector",
+    "tags": [
+      "C++",
+      "Embedded Systems"
+    ],
+    "shortDescription": "Developed an embedded system that detects the direction of sudden loud noises across 360 degrees",
+    "image": "/images/doa.jpeg",
+    "accent": "green",
+    "details": {
+      "overview": [
+        "Detects angles of sudden loud noises from 0 to 360 degrees around the system",
+        "Uses a Peak-Hold Envelope algorithm with cross-correlation to detect sudden changes in noise",
+        "Embedded 3 microphones to properly detect DOA of sound within 0.50 microseconds upon initial arrival"
+      ]
+    },
+    "links": {
+      "video": "https://youtu.be/S5PNhwMlJL4"
+    }
   }
 ]
