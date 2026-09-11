@@ -154,7 +154,7 @@
       "overview": [
         "Detects angles of sudden loud noises from 0 to 360 degrees around the system",
         "Uses a Peak-Hold Envelope algorithm with cross-correlation to detect sudden changes in noise",
-        "Embedded 3 microphones to properly detect DOA of sound within 0.50 microseconds upon initial arrival"
+        "Embedded 3 microphones to properly detect sudden noise within 0.5 milliseconds upon initial arrival"
       ]
     },
     "links": {
