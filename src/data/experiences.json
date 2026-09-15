@@ -17,7 +17,7 @@
       "TailwindCSS",
       "TypeScript"
     ],
-    "shortDescription": "Developed full-stack software serving 1,000+ students annually as part of a $1M NSF-funded research project",
+    "shortDescription": "Developed full-stack software serving 1,000+ students annually as part of a $720K NSF-funded research project",
     "image": null,
     "accent": "coral",
     "details": {
@@ -29,7 +29,7 @@
         "Consolidated 50+ utility functions into a shared library to reduce code duplication",
         "Trained and onboarded two developers on the codebase, workflows, and architecture",
         "Analyzed student and faculty feedback, increasing user ratings by 50%",
-        "Contributed to a $1M NSF-funded research project"
+        "Contributed to a $720K NSF-funded research project"
       ]
     },
     "links": {}
