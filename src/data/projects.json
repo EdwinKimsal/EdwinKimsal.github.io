@@ -14,11 +14,10 @@
     "accent": "blue",
     "details": {
       "overview": [
-        "Implemented core emulation logic for CPU, GPU, and input handling",
-        "Achieved accurate timing and synchronization for smooth gameplay",
-        "Supported multiple classic game titles with high compatibility",
-        "Optimized performance to run efficiently on modern hardware",
-        "Build IDE with AI Chat Session integration"
+        "Implemented custom IDE with color mapping for syntax highlighting and AI Integration for Chat Sessions",
+        "Designed custom programming language for game development",
+        "Engineered video emulation with three modes: graphics, text, and hybrid",
+        "Programmed compiler and interpreter for the custom programming language into Python"
       ]
     },
     "links": {
