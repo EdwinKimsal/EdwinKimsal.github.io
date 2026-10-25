@@ -2,7 +2,7 @@
   {
     "id": "emulating-a-game-console",
     "type": "Project",
-    "title": "Emulating a Game Console",
+    "title": "Trinity: An Emulated Game Console",
     "tags": [
       "Python",
       "Emulation",
