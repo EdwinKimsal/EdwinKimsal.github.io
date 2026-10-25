@@ -1,5 +1,32 @@
 [
   {
+    "id": "emulating-a-game-console",
+    "type": "Project",
+    "title": "Emulating a Game Console",
+    "tags": [
+      "Python",
+      "Emulation",
+      "Compilantion",
+      "Interpreting"
+    ],
+    "shortDescription": "Developed a system to emulate classic game consoles, enabling old hardware on modern systems",
+    "image": "/images/computer-emulator.png",
+    "accent": "blue",
+    "details": {
+      "overview": [
+        "Implemented core emulation logic for CPU, GPU, and input handling",
+        "Achieved accurate timing and synchronization for smooth gameplay",
+        "Supported multiple classic game titles with high compatibility",
+        "Optimized performance to run efficiently on modern hardware",
+        "Build IDE with AI Chat Session integration"
+      ]
+    },
+    "links": {
+      "github": "https://github.com/asutton24/trinity_home_computer",
+      "video": "https://youtu.be/PoxfZZJb70g"
+    }
+  },
+  {
     "id": "wedding-rsvp",
     "type": "Project",
     "title": "Wedding RSVP Portal",
